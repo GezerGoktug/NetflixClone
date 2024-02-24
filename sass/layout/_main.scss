@@ -1,0 +1,97 @@
+main {
+  background-color: $mainColor;
+  display: flex;
+  flex-direction: column;
+  .sec {
+    border-bottom: 6px $textSecondaryColor solid;
+    .container section {
+      padding: 50px 0;
+      &.sec-wrapper {
+        display: flex;
+        align-items: center;
+        .description {
+          width: 50%;
+          h3 {
+            font-size: 50px;
+            margin-bottom: 15px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+        .img {
+          width: 50%;
+          position: relative;
+          z-index: 100;
+          img {
+            width: 100%;
+            z-index: 100;
+            position: relative;
+          }
+        }
+      }
+      &.sec1 {
+        .img {
+          video {
+            position: absolute;
+            width: 73%;
+            left: 13%;
+            top: 20%;
+          }
+        }
+      }
+      &.sec3 {
+        .img {
+          video {
+            position: absolute;
+            width: 62%;
+            left: 18%;
+            top: 11%;
+          }
+        }
+      }
+    }
+  }
+  .questions {
+    border-bottom: 6px $textSecondaryColor solid;
+    padding: 50px 0 0 0;
+    .accordion-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 8px;
+      h3 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+    }
+    .question-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      text-align: center;
+      padding: 40px 0;
+      p {
+        font-size: 20px;
+      }
+      .question-register {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        width: 100%;
+
+        button {
+          @extend btn;
+          font-size: 20px;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+        input {
+          @extend registerinput;
+          background-color: rgba(51, 68, 96, 0.5);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+[
+    {
+        "section":"components",
+        "content":{
+            "button1":"Oturum aç",
+            "button2":"Başlayın",
+            "input":"E-posta adresi"
+            }
+    },
+    {
+        "section":"hero",
+        "content":{
+            "header":"Sınırsız film, dizi ve çok daha fazlası",
+            "description1":"İstediğiniz yerde izleyin. İstediğiniz zaman iptal edin.",
+            "description2":"İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız gereken e-posta adresinizi girmek."
+            }
+    },
+    {
+        "section":"section-desc",
+        "content":[
+            "Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılar ve daha fazlasında seyredin.",
+            "En sevdiğiniz içerikleri kolayca kaydedin ve her zaman izleyecek bir şeyleriniz olsun.",
+            "Telefonda, tablette, bilgisayarda, televizyonda sınırsız film ve dizi izleyin.",
+            "Üyeliğinize dâhil olan bu ücretsiz deneyim sayesinde çocuklarınız, sadece onlara özel bir alanda en sevdikleri karakterlerle maceralara atılabilir."
+        ]
+    },
+    {
+        "section":"section-header",
+        "content":[
+            "Televizyonuzda izleyin",
+            "Çevrimdışı izlemek için içerikleri indirin",
+            "İstediğiniz her yerde izleyin",
+            "Çocuklarınız için profiller oluşturun"
+        ]
+    },
+    {
+        "section":"accordion-header",
+        "title":"Sıkça Sorulan Sorular",
+        "content":[
+            "Netflix nedir?",
+            "Netflix'in maliyeti nedir?",
+            "Nerede izleyebilirim?",
+            "Nasıl iptal ederim?",
+            "Netflix'te ne izleyebilirim?",
+            "Netflix çocuklar için uygun mudur?"
+        ]   
+    },
+    {
+        "section":"accordion-content",
+        "content":[
+            "Netflix; internet bağlantılı binlerce cihazda ödüllü diziler, filmler, animeler, belgeseller ve daha fazlasını içeren geniş bir arşiv sunan bir streaming hizmetidir.<br><br>Tek bir reklam olmadan, istediğiniz kadar, istediğiniz zaman izleyebilirsiniz - hepsi aylık düşük bir ücret karşılığında. Her zaman keşfedilecek yeni bir şeyler var, üstelik her hafta yeni diziler ve filmler ekleniyor!",
+            "Netflix'i akıllı telefonunuz, tabletiniz, Akıllı TV'niz, dizüstü bilgisayarınız veya yayın cihazınızda sabit bir aylık ücretle izleyin. Aylık plan ücretleri 119,99 TL ile 229,99 TL arasında değişmektedir. Ekstra maliyet yok, sözleşme yok.",
+            "İstediğiniz yerde, istediğiniz zaman izleyin. Bilgisayarınızda netflix.com adresinden veya akıllı TV'ler, akıllı telefonlar, tabletler, medya oynatıcılar ve oyun konsolları dahil Netflix uygulamasını sunan, internet bağlantılı herhangi bir cihazda anında izlemek için Netflix hesabınızla oturum açın.<br><br>Favori içeriklerinizi iOS, Android veya Windows 10 uygulamasıyla da indirebilirsiniz. Seyahatteyken ve internet bağlantısı olmadan izlemek için indirilenleri kullanın. Netflix'i her yere beraberinizde götürün.",
+            "Netflix esnektir. Sinir bozucu hiçbir sözleşme ve taahhüt yoktur. Hesabınızı çevrimiçi olarak iki tıklamayla kolayca iptal edebilirsiniz. İptal ücreti yoktur - hesabınızı istediğiniz zaman başlatın veya durdurun.",
+            "Netflix, uzun metrajlı filmler, belgeseller, diziler ve programlar, anime, ödüllü Netflix orijinal içerikleri ve daha fazlasından oluşan kapsamlı bir kütüphaneye sahiptir. İstediğiniz her zaman, istediğiniz kadar çok şey izleyin.",
+            "Üyeliğinize dâhil olan Netflix Çocuk deneyimi, çocukların ailece izlenebilecek dizi ve filmleri kendilerine özel bir alanda izlemelerini sağlarken kontrolü ebeveynlere verir.<br><br>Çocuk profillerinde bulunan PIN korumalı ebeveyn kontrolleri sayesinde, çocukların izleyebileceği içeriklerin yetişkinlik düzeylerini kısıtlayabilir ve onların görmesini istemediğiniz belirli içerikleri engelleyebilirsiniz."
+        ]   
+    },
+    {
+        "section":"question-register",
+        "content":{
+            "description":"İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için tek yapmanız gereken e-posta adresinizi girmek."
+            }
+    },
+    {
+        "section":"footer",
+        "content":{
+            "description":"Sorularınız mı var? 0850-390-7444 numaralı telefonu arayın",
+            "links":[
+                "SSS",
+                "Kullanım Koşulları",
+                "Yatırımcı İlişkileri",
+                "Bize Ulaşın",
+                "Yardım Merkezi",
+                "İş İmkanları",
+                "Gizlilik",
+                "Hız Testi",
+                "Hesap",
+                "Hediye Kartı Kullan",
+                "Çerez Tercihleri",
+                "Yasal Hükümler",
+                "Medya Merkezi",
+                "İzleme Yolları",
+                "Kurumsal Bilgiler",
+                "Sadece Netflix'te"
+                ]
+            }
+    }
+]

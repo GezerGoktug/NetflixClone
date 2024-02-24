@@ -1,0 +1,47 @@
+footer {
+  background-color: $mainColor;
+  padding: 70px 0;
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    p {
+      color: $textSecondaryColor;
+      a {
+        color: $textSecondaryColor;
+        text-decoration: underline;
+      }
+    }
+    .list-wrapper {
+      width: 100%;
+      ul {
+        display: flex;
+        .col {
+          display: flex;
+          width: 50%;
+          .list-group {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            li {
+              a {
+                text-decoration: underline;
+                color: $textSecondaryColor;
+              }
+            }
+          }
+        }
+      }
+    }
+    select {
+      background-color: transparent;
+      padding: 8px 15px;
+      font-weight: 600;
+      border-radius: 5px;
+      option {
+        color: $mainColor;
+      }
+    }
+  }
+}

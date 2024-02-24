@@ -1,0 +1,43 @@
+@keyframes accordionOpenAnimate {
+  0% {
+    padding: 0px 35px;
+  }
+  100% {
+    padding: 30px 35px;
+  }
+}
+@keyframes accordionCloseAnimate {
+  0% {
+    padding: 30px 35px;
+  }
+  100% {
+    padding: 0px 35px;
+  }
+}
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  .accordion-header {
+    cursor: pointer;
+    @include flexBetween;
+    background-color: $accordionColor;
+    padding: 30px 35px;
+    &:hover {
+      background-color: rgb(63, 63, 63);
+    }
+    h4 {
+      font-weight: 400;
+      font-size: 20px;
+    }
+    i {
+      font-size: 20px;
+    }
+  }
+  .accordion-content {
+    display: none;
+    background-color: $accordionColor;
+    transition: all 0.3s ease-in;
+    text-align: left;
+  }
+}

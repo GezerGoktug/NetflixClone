@@ -1,0 +1,26 @@
+nav {
+  @include flexBetween;
+  height: 100px;
+  img {
+    max-height: 100px;
+    object-fit: contain;
+    image-rendering: auto;
+  }
+  .right-nav-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    button {
+      @extend btn;
+    }
+    select {
+      background-color: transparent;
+      padding: 8px 15px;
+      font-weight: 600;
+      border-radius: 5px;
+      option {
+        color: $mainColor;
+      }
+    }
+  }
+}

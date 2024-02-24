@@ -1,0 +1,22 @@
+registerinput {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: $textSecondaryColor 1px solid;
+  padding: 16px 10px;
+  border-radius: 5px;
+  width: 30%;
+  outline: none;
+  position: relative;
+  &::placeholder {
+    color: $textSecondaryColor;
+    position: absolute;
+    top: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  &:focus {
+    outline: 1px solid $textPrimaryColor;
+    &::placeholder {
+      top: 0;
+      font-size: 12px;
+    }
+  }
+}
