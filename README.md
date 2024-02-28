@@ -19,7 +19,7 @@ Translation has also been added according to the language selection in the proje
 
 **<p>You can access the project live below.</p>**
 
-<a href="netflixclone-web-site.netlify.app">netflixclone-web-site.netlify.app</a>
+<a href="https://netflixclone-web-site.netlify.app">https://netflixclone-web-site.netlify.app</a>
 <br>
 <br>
 <br>
